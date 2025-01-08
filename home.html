@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>𝒮𝒽𝑜𝓅𝒾𝑒𝑒𝒮𝒽𝑜𝓅</title>
+    <link rel="stylesheet" href="home.css">
+</head>
+
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+    <!-- Navbar -->
+    <nav class="navbar bg-body-tertiary">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="./home.html">
+                    <img src="https://w7.pngwing.com/pngs/151/502/png-transparent-shopping-bags-trolleys-personal-shopper-computer-icons-shopping-cart-shopping-cart-hand-logo-monochrome-thumbnail.png"
+                        alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+                    𝒮𝒽𝑜𝓅𝒾𝑒𝑒𝒮𝒽𝑜𝓅
+                </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./home.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./product.html">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./about.html">AboutUs</a>
+                    </li>
+                    <li class="nav-item" id="authButton">
+
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </nav>
+
+    <!-- Slideshow container -->
+    <div class="slideshow-container">
+        <div class="mySlides fade">
+            <div class="numbertext">1 / 3</div>
+            <img src="https://img.freepik.com/free-vector/flat-gardening-twitch-banner_23-2149376989.jpg"
+                style="width:100%">
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">2 / 3</div>
+            <img src="https://img.freepik.com/free-vector/flat-gardening-twitter-header_23-2149376985.jpg"
+                style="width:100%">
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">3 / 3</div>
+            <img src="https://img.freepik.com/free-vector/hand-drawn-flat-design-gardening-twitch-banner_23-2149387917.jpg"
+                style="width:100%">
+        </div>
+
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+
+    <!-- The dots/circles -->
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+
+    <div>
+        <br>
+        <h3 style="text-align:center">We contain the following categories</h3><br>
+        <div class="card-container" style="display: flex; flex-wrap: wrap; gap: 1rem; justify-content: center;">
+            <div class="card" style="width: 18rem;">
+                <img src="https://i.pinimg.com/736x/5e/0c/7a/5e0c7a5ccf06693b0b34aa81106a88a4.jpg" class="card-img-top"
+                    alt="...">
+                <div class="card-body">
+                    <p class="card-text">Refresh your space with lush, low-maintenance indoor plants!</p>
+                </div>
+            </div>
+            <br>
+            <div class="card" style="width: 18rem;">
+                <img src="https://i.pinimg.com/736x/31/19/d9/3119d9481db90a5c9e9b45c475dd8e7d.jpg" class="card-img-top"
+                    alt="...">
+                <div class="card-body">
+                    <p class="card-text">Transform your outdoors with vibrant, hardy plants!</p>
+                </div>
+            </div>
+            <br>
+            <div class="card" style="width: 18rem;">
+                <img src="https://i.pinimg.com/736x/94/6b/fa/946bfaff6476d07c59ce38aef92bfc2a.jpg" class="card-img-top"
+                    alt="...">
+                <div class="card-body">
+                    <p class="card-text">Nourish your plants naturally with rich, organic manure!</p>
+                </div>
+            </div>
+            <br>
+            <div class="card" style="width: 18rem;">
+                <img src="https://i.pinimg.com/736x/3d/4f/0c/3d4f0c77df7e9df7e534e31c1648156e.jpg" class="card-img-top"
+                    alt="...">
+                <div class="card-body">
+                    <p class="card-text">Grow your green thumb with all-in-one gardening kits!</p>
+                </div>
+            </div>
+        </div>
+        <br>
+    </div>
+
+    <script src="home.js"></script>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4">
+        <div class="container text-center">
+            <p>&copy; 2025 𝒮𝒽𝑜𝓅𝒾𝑒𝑒𝒮𝒽𝑜𝓅. All rights reserved.</p>
+            <a href="#" class="text-white me-2">Privacy Policy</a>
+            <a href="#" class="text-white">Terms of Service</a>
+        </div>
+    </footer>
+
+    <script>
+
+
+        // Function to handle logout
+        function handleLogout() {
+            localStorage.removeItem("loggedIn");
+            alert("You have logged out.");
+            window.location.href = "./index.html";
+
+        }
+
+        // Initialize navbar based on login status
+        window.onload = function () {
+            const authButton = document.getElementById("authButton");
+
+            // Check if user is logged in
+            if (localStorage.getItem("loggedIn") === "true") {
+                authButton.innerHTML = '<button class="btn btn-outline-danger" onclick="handleLogout()">Logout</button>';
+            }
+        };
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <title>𝒮𝒽𝑜𝓅𝒾𝑒𝑒𝒮𝒽𝑜𝓅</title>
+
+</head>
+
+<body>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <nav class="navbar bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="./home.html">
+            <img
+              src="https://w7.pngwing.com/pngs/151/502/png-transparent-shopping-bags-trolleys-personal-shopper-computer-icons-shopping-cart-shopping-cart-hand-logo-monochrome-thumbnail.png"
+              alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+            𝒮𝒽𝑜𝓅𝒾𝑒𝑒𝒮𝒽𝑜𝓅
+          </a>
+        </div>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./home.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./product.html">Products</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./about.html">AboutUs</a>
+            </li>
+            <li class="nav-item" id="authButton">
+              <!--Logout button will be injected here -->
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </nav>
+  <h2 style="text-align:center"> 𝙀𝙭𝙥𝙡𝙤𝙧𝙚 𝙤𝙪𝙧 𝙋𝙧𝙤𝙙𝙪𝙘𝙩𝙨</h2><br>
+  <div class="card-container" style="display: flex; flex-wrap: wrap; gap: 1rem; justify-content: center;">
+    <div class="card" style="width: 18rem;">
+      <img src="https://i.pinimg.com/736x/73/e4/0f/73e40f378428d83c63e7c750611d5239.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Clover</h5>
+        <p class="card-text">Add a touch of luck and greenery with the charming Clover Plant—easy to grow, perfect for
+          any space!</p>
+        <button class="btn btn-primary" onclick="toggleCartStatus(this)">Add to Cart</button>
+
+      </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+      <img src="https://i.pinimg.com/736x/92/ee/06/92ee06b241c9b3b0093dc0fe766264a6.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Lille plants for office desk</h5>
+        <p class="card-text">Perfect for small spaces, our little planters bring charm and greenery to any corner. </p>
+        <button class="btn btn-primary" onclick="toggleCartStatus(this)">Add to Cart</button>
+
+      </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+      <img src="https://i.pinimg.com/736x/d4/0b/42/d40b42a2eb748d9926017b36bba2b876.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Wiwik Plant</h5>
+        <p class="card-text">Bring a burst of greenery into your home with the Wiwik Plant! Known for its vibrant
+          foliage and easy care, this hardy plant thrives in both indoor and outdoor spaces, making it the perfect
+          addition to any plant collection.</p>
+        <button class="btn btn-primary" onclick="toggleCartStatus(this)">Add to Cart</button>
+
+      </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+      <img src="https://i.pinimg.com/736x/3b/bf/d0/3bbfd0fecc77cea9b553408c3b997c8e.jpg" class="card-img-top" alt="...">
+      <div class="card-body">Plant Box</h5>
+        <p class="card-text">Add style and organization to your gardening with our versatile plant boxes! Perfect for
+          small plants, herbs, or flowers, these sturdy and attractive boxes are ideal for both indoor and outdoor
+          spaces. Grow your green oasis with ease!</p>
+        <button class="btn btn-primary" onclick="toggleCartStatus(this)">Add to Cart</button>
+
+      </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+      <img src="https://i.pinimg.com/736x/e9/53/2a/e9532ab1d4dfdb3620a57733e9e38fb2.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">ZZ Plant</h5>
+        <p class="card-text">"Add a touch of elegance with the ZZ Plant! Known for its glossy, dark green leaves and
+          air-purifying qualities, this low-maintenance beauty thrives in low light and requires minimal watering,
+          making it perfect for beginners and busy plant lovers alike.</p>
+        <button class="btn btn-primary" onclick="toggleCartStatus(this)">Add to Cart</button>
+
+      </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+      <img src="https://i.pinimg.com/736x/70/de/5d/70de5df8a9f918951c5bf6e6d3d6e554.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Money Plant</h5>
+        <p class="card-text">Bring prosperity and good vibes to your space with the Money Plant! Easy to care for and
+          known for its lush, trailing vines, this air-purifying plant is perfect for any room. A symbol of good luck
+          and abundance, it's the ideal choice for any plant lover!</p>
+        <button class="btn btn-primary" onclick="toggleCartStatus(this)">Add to Cart</button>
+
+      </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+      <img src="https://i.pinimg.com/736x/41/bb/49/41bb4908ca35be5cb1ccd860e705d071.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Pilea Peperomioides</h5>
+        <p class="card-text">Add a modern touch with the Pilea Peperomioides, also known as the Chinese Money Plant!
+          With its unique, round leaves and easy-care nature, this stylish plant thrives in bright, indirect light and
+          is perfect for beginners</p>
+        <button class="btn btn-primary" onclick="toggleCartStatus(this)">Add to Cart</button>
+
+      </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+      <img src="https://i.pinimg.com/736x/37/86/69/378669e8950f6e8c623e9ee18247b508.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Boston Fern</h5>
+        <p class="card-text">Transform your space with the lush, vibrant Boston Fern! Known for its graceful, feathery
+          fronds, this air-purifying plant thrives in humidity and indirect light, making it a perfect addition to
+          bathrooms or any indoor space. </p>
+        <button class="btn btn-primary" onclick="toggleCartStatus(this)">Add to Cart</button>
+
+      </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+      <img src="https://i.pinimg.com/736x/29/f0/4a/29f04acb65e708ac2a3cb6f3bb11d2fb.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Chicken Manure</h5>
+        <p class="card-text">Enhance your garden with nutrient-rich Chicken Manure! Packed with essential organic
+          matter, this natural fertilizer promotes healthy plant growth, boosts soil fertility, and helps retain
+          moisture, making it an eco-friendly choice for flourishing gardens and vibrant plants.</p>
+        <button class="btn btn-primary" onclick="toggleCartStatus(this)">Add to Cart</button>
+
+      </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+      <img src="https://i.pinimg.com/736x/3e/f6/d3/3ef6d366d387fc5703ac0af31b7e1e16.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Gardening Fork</h5>
+        <p class="card-text">Dig, aerate, and cultivate your garden with ease using our high-quality Gardening Fork!
+          Designed for precision and durability, it’s perfect for turning soil, breaking up clumps, and tending to your
+          plants. A must-have tool for every gardener!</p>
+        <button class="btn btn-primary" onclick="toggleCartStatus(this)">Add to Cart</button>
+
+      </div>
+    </div>
+
+
+    <div class="card" style="width: 18rem;">
+      <img src="https://m.media-amazon.com/images/I/51jEbFD4okL._AC_UF1000,1000_QL80_.jpg" class="card-img-top"
+        alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Aloe Vera</h5>
+        <p class="card-text">Experience the natural healing power of Aloe Vera! Known for its soothing properties, this
+          easy-to-care-for succulent is perfect for skin care and air purification. A beautiful addition to any home,
+          Aloe Vera thrives in bright light and adds a touch of greenery to your space.</p>
+        <button class="btn btn-primary" onclick="toggleCartStatus(this)">Add to Cart</button>
+
+      </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+      <img
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZxs-TIoucEz0cawiOhynOYcR7A1el0wtNzFDRceMSCfgoRnWsCyvBpUutzAKOpkChqTQ&usqp=CAU"
+        class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Lavender</h5>
+        <p class="card-text">Infuse your space with the calming fragrance of Lavender! Known for its soothing aroma and
+          vibrant purple blooms, this aromatic herb not only adds beauty but also promotes relaxation. Perfect for
+          gardens or indoor pots, Lavender thrives in sunny spots and is a must-have for any plant lover.</p>
+        <button class="btn btn-primary" onclick="toggleCartStatus(this)">Add to Cart</button>
+
+      </div>
+    </div>
+
+  </div>
+
+
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white py-4">
+    <div class="container text-center">
+      <p>&copy; 2025 𝒮𝒽𝑜𝓅𝒾𝑒𝑒𝒮𝒽𝑜𝓅. All rights reserved.</p>
+      <a href="#" class="text-white me-2">Privacy Policy</a>
+      <a href="#" class="text-white">Terms of Service</a>
+    </div>
+  </footer>
+  <script>
+
+
+    function toggleCartStatus(button) {
+      if (button.innerText === "Add to Cart") {
+        button.innerText = "Added to Cart";
+        button.classList.remove("btn-primary");
+        button.classList.add("btn-success");  // Change button color to green for 'added'
+      } else {
+        button.innerText = "Add to Cart";
+        button.classList.remove("btn-success");
+        button.classList.add("btn-primary");  // Revert to original color
+      }
+    }
+
+    // Function to handle logout
+    function handleLogout() {
+      localStorage.removeItem("loggedIn");
+      alert("You have logged out.");
+      window.location.href = "./index.html";
+
+    }
+
+    // Initialize navbar based on login status
+    window.onload = function () {
+      const authButton = document.getElementById("authButton");
+
+      // Check if user is logged in
+      if (localStorage.getItem("loggedIn") === "true") {
+        authButton.innerHTML = '<button class="btn btn-outline-danger" onclick="handleLogout()">Logout</button>';
+      }
+    };
+  </script>
+</body>
+
+</html>
